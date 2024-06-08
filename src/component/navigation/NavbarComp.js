@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import {Navbar, Nav, Container} from 'react-bootstrap'
+import { Container, Nav, Navbar } from 'react-bootstrap';
 
 import {
+    Link,
+    Route,
     BrowserRouter as Router,
-    Routes,
-    Route, 
-    Link
-} from "react-router-dom"
+    Routes
+} from "react-router-dom";
 import About from "../../pages/About";
 import Home from "../../pages/Home";
 
